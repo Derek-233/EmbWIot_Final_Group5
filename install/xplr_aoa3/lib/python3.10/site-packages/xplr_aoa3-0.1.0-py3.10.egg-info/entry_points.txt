@@ -1,3 +1,0 @@
-[console_scripts]
-aoa_node = xplr_aoa3.aoa_node:main
-

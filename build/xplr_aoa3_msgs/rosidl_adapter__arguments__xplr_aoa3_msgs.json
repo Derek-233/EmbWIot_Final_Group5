@@ -1,6 +1,0 @@
-{
-  "package_name": "xplr_aoa3_msgs",
-  "non_idl_tuples": [
-    "/home/qingyuan/ros2_iot/src/xplr_aoa3_msgs:msg/AoaMeasurement.msg"
-  ]
-}
