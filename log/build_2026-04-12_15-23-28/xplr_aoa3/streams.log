@@ -1,0 +1,39 @@
+[1.448s] Invoking command in '/home/qingyuan/ros2_iot/src/xplr_aoa3': AMENT_PREFIX_PATH=/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/qingyuan/ros2_iot/build/xplr_aoa3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qingyuan/ros2_iot/install/xplr_aoa3/lib/python3.10/site-packages:/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/xplr_aoa3 build --build-base /home/qingyuan/ros2_iot/build/xplr_aoa3/build install --record /home/qingyuan/ros2_iot/build/xplr_aoa3/install.log --single-version-externally-managed install_data
+[1.675s] running egg_info
+[1.676s] creating ../../build/xplr_aoa3/xplr_aoa3.egg-info
+[1.676s] writing ../../build/xplr_aoa3/xplr_aoa3.egg-info/PKG-INFO
+[1.676s] writing dependency_links to ../../build/xplr_aoa3/xplr_aoa3.egg-info/dependency_links.txt
+[1.676s] writing entry points to ../../build/xplr_aoa3/xplr_aoa3.egg-info/entry_points.txt
+[1.676s] writing requirements to ../../build/xplr_aoa3/xplr_aoa3.egg-info/requires.txt
+[1.677s] writing top-level names to ../../build/xplr_aoa3/xplr_aoa3.egg-info/top_level.txt
+[1.677s] writing manifest file '../../build/xplr_aoa3/xplr_aoa3.egg-info/SOURCES.txt'
+[1.678s] reading manifest file '../../build/xplr_aoa3/xplr_aoa3.egg-info/SOURCES.txt'
+[1.679s] writing manifest file '../../build/xplr_aoa3/xplr_aoa3.egg-info/SOURCES.txt'
+[1.679s] running build
+[1.679s] running build_py
+[1.680s] creating /home/qingyuan/ros2_iot/build/xplr_aoa3/build
+[1.680s] creating /home/qingyuan/ros2_iot/build/xplr_aoa3/build/lib
+[1.680s] creating /home/qingyuan/ros2_iot/build/xplr_aoa3/build/lib/xplr_aoa3
+[1.680s] copying xplr_aoa3/aoa_node.py -> /home/qingyuan/ros2_iot/build/xplr_aoa3/build/lib/xplr_aoa3
+[1.680s] copying xplr_aoa3/__init__.py -> /home/qingyuan/ros2_iot/build/xplr_aoa3/build/lib/xplr_aoa3
+[1.680s] running install
+[1.680s] running install_lib
+[1.681s] creating /home/qingyuan/ros2_iot/install/xplr_aoa3/lib/python3.10/site-packages/xplr_aoa3
+[1.681s] copying /home/qingyuan/ros2_iot/build/xplr_aoa3/build/lib/xplr_aoa3/aoa_node.py -> /home/qingyuan/ros2_iot/install/xplr_aoa3/lib/python3.10/site-packages/xplr_aoa3
+[1.681s] copying /home/qingyuan/ros2_iot/build/xplr_aoa3/build/lib/xplr_aoa3/__init__.py -> /home/qingyuan/ros2_iot/install/xplr_aoa3/lib/python3.10/site-packages/xplr_aoa3
+[1.682s] byte-compiling /home/qingyuan/ros2_iot/install/xplr_aoa3/lib/python3.10/site-packages/xplr_aoa3/aoa_node.py to aoa_node.cpython-310.pyc
+[1.683s] byte-compiling /home/qingyuan/ros2_iot/install/xplr_aoa3/lib/python3.10/site-packages/xplr_aoa3/__init__.py to __init__.cpython-310.pyc
+[1.683s] running install_data
+[1.683s] creating /home/qingyuan/ros2_iot/install/xplr_aoa3/share/ament_index
+[1.683s] creating /home/qingyuan/ros2_iot/install/xplr_aoa3/share/ament_index/resource_index
+[1.683s] creating /home/qingyuan/ros2_iot/install/xplr_aoa3/share/ament_index/resource_index/packages
+[1.683s] copying resource/xplr_aoa3 -> /home/qingyuan/ros2_iot/install/xplr_aoa3/share/ament_index/resource_index/packages
+[1.683s] copying package.xml -> /home/qingyuan/ros2_iot/install/xplr_aoa3/share/xplr_aoa3
+[1.683s] creating /home/qingyuan/ros2_iot/install/xplr_aoa3/share/xplr_aoa3/launch
+[1.684s] copying launch/aoa_launch.py -> /home/qingyuan/ros2_iot/install/xplr_aoa3/share/xplr_aoa3/launch
+[1.684s] running install_egg_info
+[1.685s] Copying ../../build/xplr_aoa3/xplr_aoa3.egg-info to /home/qingyuan/ros2_iot/install/xplr_aoa3/lib/python3.10/site-packages/xplr_aoa3-0.1.0-py3.10.egg-info
+[1.686s] running install_scripts
+[1.703s] Installing aoa_node script to /home/qingyuan/ros2_iot/install/xplr_aoa3/lib/xplr_aoa3
+[1.703s] writing list of installed files to '/home/qingyuan/ros2_iot/build/xplr_aoa3/install.log'
+[1.721s] Invoked command in '/home/qingyuan/ros2_iot/src/xplr_aoa3' returned '0': AMENT_PREFIX_PATH=/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/qingyuan/ros2_iot/build/xplr_aoa3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qingyuan/ros2_iot/install/xplr_aoa3/lib/python3.10/site-packages:/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/xplr_aoa3 build --build-base /home/qingyuan/ros2_iot/build/xplr_aoa3/build install --record /home/qingyuan/ros2_iot/build/xplr_aoa3/install.log --single-version-externally-managed install_data

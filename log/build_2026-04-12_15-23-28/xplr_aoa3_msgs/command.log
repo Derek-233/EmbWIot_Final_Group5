@@ -1,0 +1,6 @@
+Invoking command in '/home/qingyuan/ros2_iot/build/xplr_aoa3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/qingyuan/ros2_iot/src/xplr_aoa3_msgs -DCMAKE_INSTALL_PREFIX=/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs
+Invoked command in '/home/qingyuan/ros2_iot/build/xplr_aoa3_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/qingyuan/ros2_iot/src/xplr_aoa3_msgs -DCMAKE_INSTALL_PREFIX=/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs
+Invoking command in '/home/qingyuan/ros2_iot/build/xplr_aoa3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/qingyuan/ros2_iot/build/xplr_aoa3_msgs -- -j12 -l12
+Invoked command in '/home/qingyuan/ros2_iot/build/xplr_aoa3_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/qingyuan/ros2_iot/build/xplr_aoa3_msgs -- -j12 -l12
+Invoking command in '/home/qingyuan/ros2_iot/build/xplr_aoa3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/qingyuan/ros2_iot/build/xplr_aoa3_msgs
+Invoked command in '/home/qingyuan/ros2_iot/build/xplr_aoa3_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/qingyuan/ros2_iot/build/xplr_aoa3_msgs

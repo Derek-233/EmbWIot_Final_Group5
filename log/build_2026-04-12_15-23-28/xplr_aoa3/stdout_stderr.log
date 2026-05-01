@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/xplr_aoa3/xplr_aoa3.egg-info
+writing ../../build/xplr_aoa3/xplr_aoa3.egg-info/PKG-INFO
+writing dependency_links to ../../build/xplr_aoa3/xplr_aoa3.egg-info/dependency_links.txt
+writing entry points to ../../build/xplr_aoa3/xplr_aoa3.egg-info/entry_points.txt
+writing requirements to ../../build/xplr_aoa3/xplr_aoa3.egg-info/requires.txt
+writing top-level names to ../../build/xplr_aoa3/xplr_aoa3.egg-info/top_level.txt
+writing manifest file '../../build/xplr_aoa3/xplr_aoa3.egg-info/SOURCES.txt'
+reading manifest file '../../build/xplr_aoa3/xplr_aoa3.egg-info/SOURCES.txt'
+writing manifest file '../../build/xplr_aoa3/xplr_aoa3.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/qingyuan/ros2_iot/build/xplr_aoa3/build
+creating /home/qingyuan/ros2_iot/build/xplr_aoa3/build/lib
+creating /home/qingyuan/ros2_iot/build/xplr_aoa3/build/lib/xplr_aoa3
+copying xplr_aoa3/aoa_node.py -> /home/qingyuan/ros2_iot/build/xplr_aoa3/build/lib/xplr_aoa3
+copying xplr_aoa3/__init__.py -> /home/qingyuan/ros2_iot/build/xplr_aoa3/build/lib/xplr_aoa3
+running install
+running install_lib
+creating /home/qingyuan/ros2_iot/install/xplr_aoa3/lib/python3.10/site-packages/xplr_aoa3
+copying /home/qingyuan/ros2_iot/build/xplr_aoa3/build/lib/xplr_aoa3/aoa_node.py -> /home/qingyuan/ros2_iot/install/xplr_aoa3/lib/python3.10/site-packages/xplr_aoa3
+copying /home/qingyuan/ros2_iot/build/xplr_aoa3/build/lib/xplr_aoa3/__init__.py -> /home/qingyuan/ros2_iot/install/xplr_aoa3/lib/python3.10/site-packages/xplr_aoa3
+byte-compiling /home/qingyuan/ros2_iot/install/xplr_aoa3/lib/python3.10/site-packages/xplr_aoa3/aoa_node.py to aoa_node.cpython-310.pyc
+byte-compiling /home/qingyuan/ros2_iot/install/xplr_aoa3/lib/python3.10/site-packages/xplr_aoa3/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/qingyuan/ros2_iot/install/xplr_aoa3/share/ament_index
+creating /home/qingyuan/ros2_iot/install/xplr_aoa3/share/ament_index/resource_index
+creating /home/qingyuan/ros2_iot/install/xplr_aoa3/share/ament_index/resource_index/packages
+copying resource/xplr_aoa3 -> /home/qingyuan/ros2_iot/install/xplr_aoa3/share/ament_index/resource_index/packages
+copying package.xml -> /home/qingyuan/ros2_iot/install/xplr_aoa3/share/xplr_aoa3
+creating /home/qingyuan/ros2_iot/install/xplr_aoa3/share/xplr_aoa3/launch
+copying launch/aoa_launch.py -> /home/qingyuan/ros2_iot/install/xplr_aoa3/share/xplr_aoa3/launch
+running install_egg_info
+Copying ../../build/xplr_aoa3/xplr_aoa3.egg-info to /home/qingyuan/ros2_iot/install/xplr_aoa3/lib/python3.10/site-packages/xplr_aoa3-0.1.0-py3.10.egg-info
+running install_scripts
+Installing aoa_node script to /home/qingyuan/ros2_iot/install/xplr_aoa3/lib/xplr_aoa3
+writing list of installed files to '/home/qingyuan/ros2_iot/build/xplr_aoa3/install.log'

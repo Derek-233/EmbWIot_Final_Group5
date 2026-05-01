@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "xplr_aoa3_msgs__py",
+		"source" : "/home/qingyuan/ros2_iot/build/xplr_aoa3_msgs/xplr_aoa3_msgs__py"
+	}
+}

@@ -1,0 +1,363 @@
+[0.000000] (-) TimerEvent: {}
+[0.000097] (xplr_aoa3_msgs) JobQueued: {'identifier': 'xplr_aoa3_msgs', 'dependencies': OrderedDict()}
+[0.000120] (xplr_aoa3) JobQueued: {'identifier': 'xplr_aoa3', 'dependencies': OrderedDict([('xplr_aoa3_msgs', '/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs')])}
+[0.000141] (xplr_aoa3_msgs) JobStarted: {'identifier': 'xplr_aoa3_msgs'}
+[0.007446] (xplr_aoa3_msgs) JobProgress: {'identifier': 'xplr_aoa3_msgs', 'progress': 'cmake'}
+[0.007889] (xplr_aoa3_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/qingyuan/ros2_iot/src/xplr_aoa3_msgs', '-DCMAKE_INSTALL_PREFIX=/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs'], 'cwd': '/home/qingyuan/ros2_iot/build/xplr_aoa3_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'qingyuan'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/qingyuan/ros2_ws/install/rdkdc/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/qingyuan'), ('OLDPWD', '/home/qingyuan/ros2_iot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '231325'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/qingyuan/ros2_iot/install:/home/qingyuan/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'qingyuan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'qingyuan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/qingyuan-G7-7588:@/tmp/.ICE-unix/2030,unix/qingyuan-G7-7588:/tmp/.ICE-unix/2030'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/50018f47_0772_4231_8c00_3ba05db2297b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MLA7M3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1189'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/qingyuan/ros2_ws/install/rdkdc:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/qingyuan/ros2_iot/build/xplr_aoa3_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/qingyuan/ros2_ws/install/rdkdc:/opt/ros/humble')]), 'shell': False}
+[0.099707] (-) TimerEvent: {}
+[0.200202] (-) TimerEvent: {}
+[0.300858] (-) TimerEvent: {}
+[0.401173] (-) TimerEvent: {}
+[0.501786] (-) TimerEvent: {}
+[0.602424] (-) TimerEvent: {}
+[0.703066] (-) TimerEvent: {}
+[0.803701] (-) TimerEvent: {}
+[0.904385] (-) TimerEvent: {}
+[1.005104] (-) TimerEvent: {}
+[1.105737] (-) TimerEvent: {}
+[1.206160] (-) TimerEvent: {}
+[1.306817] (-) TimerEvent: {}
+[1.352418] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.406944] (-) TimerEvent: {}
+[1.455318] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.464811] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.507071] (-) TimerEvent: {}
+[1.607474] (-) TimerEvent: {}
+[1.664793] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.675639] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.676352] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.677281] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.682011] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.707602] (-) TimerEvent: {}
+[1.793391] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.800714] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.800945] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.801376] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.807835] (-) TimerEvent: {}
+[1.908188] (-) TimerEvent: {}
+[1.993737] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.008371] (-) TimerEvent: {}
+[2.108837] (-) TimerEvent: {}
+[2.171790] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.208954] (-) TimerEvent: {}
+[2.309223] (-) TimerEvent: {}
+[2.331720] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[2.409367] (-) TimerEvent: {}
+[2.509649] (-) TimerEvent: {}
+[2.546695] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.588616] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.609807] (-) TimerEvent: {}
+[2.632460] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.709933] (-) TimerEvent: {}
+[2.739217] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.810072] (-) TimerEvent: {}
+[2.853149] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.910230] (-) TimerEvent: {}
+[2.953226] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.010353] (-) TimerEvent: {}
+[3.110603] (-) TimerEvent: {}
+[3.210859] (-) TimerEvent: {}
+[3.264299] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.311004] (-) TimerEvent: {}
+[3.411262] (-) TimerEvent: {}
+[3.511489] (-) TimerEvent: {}
+[3.611715] (-) TimerEvent: {}
+[3.642303] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.711836] (-) TimerEvent: {}
+[3.766913] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.787793] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.791411] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.812093] (-) TimerEvent: {}
+[3.848455] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.848679] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.848748] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.848809] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.872483] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.912181] (-) TimerEvent: {}
+[4.012518] (-) TimerEvent: {}
+[4.047123] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.076095] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[4.085682] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/qingyuan/ros2_iot/build/xplr_aoa3_msgs\n'}
+[4.090905] (xplr_aoa3_msgs) CommandEnded: {'returncode': 0}
+[4.092385] (xplr_aoa3_msgs) JobProgress: {'identifier': 'xplr_aoa3_msgs', 'progress': 'build'}
+[4.092442] (xplr_aoa3_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/qingyuan/ros2_iot/build/xplr_aoa3_msgs', '--', '-j12', '-l12'], 'cwd': '/home/qingyuan/ros2_iot/build/xplr_aoa3_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'qingyuan'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/qingyuan/ros2_ws/install/rdkdc/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/qingyuan'), ('OLDPWD', '/home/qingyuan/ros2_iot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '231325'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/qingyuan/ros2_iot/install:/home/qingyuan/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'qingyuan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'qingyuan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/qingyuan-G7-7588:@/tmp/.ICE-unix/2030,unix/qingyuan-G7-7588:/tmp/.ICE-unix/2030'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/50018f47_0772_4231_8c00_3ba05db2297b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MLA7M3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1189'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/qingyuan/ros2_ws/install/rdkdc:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/qingyuan/ros2_iot/build/xplr_aoa3_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/qingyuan/ros2_ws/install/rdkdc:/opt/ros/humble')]), 'shell': False}
+[4.112622] (-) TimerEvent: {}
+[4.127374] (xplr_aoa3_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.136725] (xplr_aoa3_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.144910] (xplr_aoa3_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_xplr_aoa3_msgs\n'}
+[4.212716] (-) TimerEvent: {}
+[4.313007] (-) TimerEvent: {}
+[4.388192] (xplr_aoa3_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.388903] (xplr_aoa3_msgs) StdoutLine: {'line': b'creating xplr_aoa3_msgs.egg-info\n'}
+[4.389194] (xplr_aoa3_msgs) StdoutLine: {'line': b'writing xplr_aoa3_msgs.egg-info/PKG-INFO\n'}
+[4.389414] (xplr_aoa3_msgs) StdoutLine: {'line': b'writing dependency_links to xplr_aoa3_msgs.egg-info/dependency_links.txt\n'}
+[4.389724] (xplr_aoa3_msgs) StdoutLine: {'line': b'writing top-level names to xplr_aoa3_msgs.egg-info/top_level.txt\n'}
+[4.389984] (xplr_aoa3_msgs) StdoutLine: {'line': b"writing manifest file 'xplr_aoa3_msgs.egg-info/SOURCES.txt'\n"}
+[4.392387] (xplr_aoa3_msgs) StdoutLine: {'line': b"reading manifest file 'xplr_aoa3_msgs.egg-info/SOURCES.txt'\n"}
+[4.393026] (xplr_aoa3_msgs) StdoutLine: {'line': b"writing manifest file 'xplr_aoa3_msgs.egg-info/SOURCES.txt'\n"}
+[4.401619] (xplr_aoa3_msgs) StdoutLine: {'line': b'[  6%] Built target xplr_aoa3_msgs__cpp\n'}
+[4.411354] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.411584] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.411722] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.413107] (-) TimerEvent: {}
+[4.414578] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/xplr_aoa3_msgs__rosidl_generator_c.dir/rosidl_generator_c/xplr_aoa3_msgs/msg/detail/aoa_measurement__functions.c.o\x1b[0m\n'}
+[4.419864] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 19%] Built target ament_cmake_python_build_xplr_aoa3_msgs_egg\n'}
+[4.513213] (-) TimerEvent: {}
+[4.578614] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libxplr_aoa3_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[4.613306] (-) TimerEvent: {}
+[4.629401] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/xplr_aoa3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xplr_aoa3_msgs/msg/aoa_measurement__type_support.cpp.o\x1b[0m\n'}
+[4.652051] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 25%] Built target xplr_aoa3_msgs__rosidl_generator_c\n'}
+[4.661928] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.662076] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.662143] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.662944] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/xplr_aoa3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xplr_aoa3_msgs/msg/detail/dds_fastrtps/aoa_measurement__type_support.cpp.o\x1b[0m\n'}
+[4.703925] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/xplr_aoa3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xplr_aoa3_msgs/msg/detail/aoa_measurement__type_support.cpp.o\x1b[0m\n'}
+[4.713423] (-) TimerEvent: {}
+[4.813685] (-) TimerEvent: {}
+[4.887591] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/xplr_aoa3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/xplr_aoa3_msgs/msg/aoa_measurement__type_support.cpp.o\x1b[0m\n'}
+[4.910717] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/xplr_aoa3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xplr_aoa3_msgs/msg/detail/aoa_measurement__type_support.c.o\x1b[0m\n'}
+[4.912334] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/xplr_aoa3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xplr_aoa3_msgs/msg/detail/aoa_measurement__type_support_c.cpp.o\x1b[0m\n'}
+[4.913789] (-) TimerEvent: {}
+[4.920440] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libxplr_aoa3_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.960931] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 54%] Built target xplr_aoa3_msgs__rosidl_typesupport_c\n'}
+[4.995359] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libxplr_aoa3_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.013915] (-) TimerEvent: {}
+[5.023294] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 58%] Built target xplr_aoa3_msgs__rosidl_typesupport_introspection_c\n'}
+[5.114072] (-) TimerEvent: {}
+[5.214412] (-) TimerEvent: {}
+[5.314676] (-) TimerEvent: {}
+[5.325552] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libxplr_aoa3_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.368552] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 61%] Built target xplr_aoa3_msgs__rosidl_typesupport_cpp\n'}
+[5.414806] (-) TimerEvent: {}
+[5.455354] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libxplr_aoa3_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.460398] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libxplr_aoa3_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.505577] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libxplr_aoa3_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.514896] (-) TimerEvent: {}
+[5.523477] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 70%] Built target xplr_aoa3_msgs__rosidl_typesupport_introspection_cpp\n'}
+[5.530326] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 70%] Built target xplr_aoa3_msgs__rosidl_typesupport_fastrtps_c\n'}
+[5.573700] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 70%] Built target xplr_aoa3_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.591385] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 70%] Built target xplr_aoa3_msgs\n'}
+[5.609692] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.615013] (-) TimerEvent: {}
+[5.715232] (-) TimerEvent: {}
+[5.815435] (-) TimerEvent: {}
+[5.915662] (-) TimerEvent: {}
+[5.927166] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 74%] Built target xplr_aoa3_msgs__py\n'}
+[5.946626] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/xplr_aoa3_msgs__rosidl_generator_py.dir/rosidl_generator_py/xplr_aoa3_msgs/msg/_aoa_measurement_s.c.o\x1b[0m\n'}
+[6.015851] (-) TimerEvent: {}
+[6.116346] (-) TimerEvent: {}
+[6.216933] (-) TimerEvent: {}
+[6.317561] (-) TimerEvent: {}
+[6.417946] (-) TimerEvent: {}
+[6.518371] (-) TimerEvent: {}
+[6.619071] (-) TimerEvent: {}
+[6.653712] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xplr_aoa3_msgs/libxplr_aoa3_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[6.691607] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 80%] Built target xplr_aoa3_msgs__rosidl_generator_py\n'}
+[6.710889] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/xplr_aoa3_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/xplr_aoa3_msgs/_xplr_aoa3_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.711073] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/xplr_aoa3_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/xplr_aoa3_msgs/_xplr_aoa3_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.711136] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/xplr_aoa3_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/xplr_aoa3_msgs/_xplr_aoa3_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.719175] (-) TimerEvent: {}
+[6.819587] (-) TimerEvent: {}
+[6.851147] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xplr_aoa3_msgs/xplr_aoa3_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.851347] (xplr_aoa3_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xplr_aoa3_msgs/xplr_aoa3_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.852171] (xplr_aoa3_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xplr_aoa3_msgs/xplr_aoa3_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.889046] (xplr_aoa3_msgs) StdoutLine: {'line': b'[100%] Built target xplr_aoa3_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[6.889230] (xplr_aoa3_msgs) StdoutLine: {'line': b'[100%] Built target xplr_aoa3_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.889291] (xplr_aoa3_msgs) StdoutLine: {'line': b'[100%] Built target xplr_aoa3_msgs__rosidl_typesupport_c__pyext\n'}
+[6.899961] (xplr_aoa3_msgs) CommandEnded: {'returncode': 0}
+[6.900854] (xplr_aoa3_msgs) JobProgress: {'identifier': 'xplr_aoa3_msgs', 'progress': 'install'}
+[6.908834] (xplr_aoa3_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/qingyuan/ros2_iot/build/xplr_aoa3_msgs'], 'cwd': '/home/qingyuan/ros2_iot/build/xplr_aoa3_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'qingyuan'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/qingyuan/ros2_ws/install/rdkdc/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/qingyuan'), ('OLDPWD', '/home/qingyuan/ros2_iot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '231325'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/qingyuan/ros2_iot/install:/home/qingyuan/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'qingyuan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'qingyuan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/qingyuan-G7-7588:@/tmp/.ICE-unix/2030,unix/qingyuan-G7-7588:/tmp/.ICE-unix/2030'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/50018f47_0772_4231_8c00_3ba05db2297b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MLA7M3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1189'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/qingyuan/ros2_ws/install/rdkdc:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/qingyuan/ros2_iot/build/xplr_aoa3_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/qingyuan/ros2_ws/install/rdkdc:/opt/ros/humble')]), 'shell': False}
+[6.915875] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.916040] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/ament_index/resource_index/rosidl_interfaces/xplr_aoa3_msgs\n'}
+[6.916242] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs\n'}
+[6.916426] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg\n'}
+[6.916503] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg/aoa_measurement.h\n'}
+[6.916565] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.916646] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg/detail\n'}
+[6.916711] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg/detail/aoa_measurement__functions.c\n'}
+[6.916765] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg/detail/aoa_measurement__type_support.h\n'}
+[6.916843] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg/detail/aoa_measurement__struct.h\n'}
+[6.916897] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg/detail/aoa_measurement__functions.h\n'}
+[6.917139] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/environment/library_path.sh\n'}
+[6.917294] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/environment/library_path.dsv\n'}
+[6.917478] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/lib/libxplr_aoa3_msgs__rosidl_generator_c.so\n'}
+[6.917809] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/lib/libxplr_aoa3_msgs__rosidl_generator_c.so" to ""\n'}
+[6.917891] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs\n'}
+[6.917950] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg\n'}
+[6.918148] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.918232] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg/detail\n'}
+[6.918284] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg/detail/aoa_measurement__rosidl_typesupport_fastrtps_c.h\n'}
+[6.918334] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/lib/libxplr_aoa3_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[6.918566] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/lib/libxplr_aoa3_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.918654] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs\n'}
+[6.918788] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg\n'}
+[6.918870] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[6.918930] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg/aoa_measurement.hpp\n'}
+[6.919104] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg/detail\n'}
+[6.919204] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg/detail/aoa_measurement__traits.hpp\n'}
+[6.919258] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg/detail/aoa_measurement__struct.hpp\n'}
+[6.919327] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg/detail/aoa_measurement__type_support.hpp\n'}
+[6.919381] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg/detail/aoa_measurement__builder.hpp\n'}
+[6.919434] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs\n'}
+[6.919485] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg\n'}
+[6.919568] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.919617] (-) TimerEvent: {}
+[6.919719] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg/detail\n'}
+[6.919777] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg/detail/aoa_measurement__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.919838] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg/detail/dds_fastrtps\n'}
+[6.919885] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/lib/libxplr_aoa3_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.920144] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/lib/libxplr_aoa3_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[6.920269] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs\n'}
+[6.920343] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg\n'}
+[6.920398] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.920535] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg/detail\n'}
+[6.920612] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg/detail/aoa_measurement__type_support.c\n'}
+[6.920675] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg/detail/aoa_measurement__rosidl_typesupport_introspection_c.h\n'}
+[6.920756] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/lib/libxplr_aoa3_msgs__rosidl_typesupport_introspection_c.so\n'}
+[6.920928] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/lib/libxplr_aoa3_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.921049] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/lib/libxplr_aoa3_msgs__rosidl_typesupport_c.so\n'}
+[6.921359] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/lib/libxplr_aoa3_msgs__rosidl_typesupport_c.so" to ""\n'}
+[6.921515] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs\n'}
+[6.921595] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg\n'}
+[6.921746] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg/detail\n'}
+[6.921811] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg/detail/aoa_measurement__type_support.cpp\n'}
+[6.921868] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/include/xplr_aoa3_msgs/xplr_aoa3_msgs/msg/detail/aoa_measurement__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.921919] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/lib/libxplr_aoa3_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[6.922064] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/lib/libxplr_aoa3_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.922142] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/lib/libxplr_aoa3_msgs__rosidl_typesupport_cpp.so\n'}
+[6.922456] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/lib/libxplr_aoa3_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[6.922533] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/environment/pythonpath.sh\n'}
+[6.922670] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/environment/pythonpath.dsv\n'}
+[6.922816] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages/xplr_aoa3_msgs-0.1.0-py3.10.egg-info\n'}
+[6.922919] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages/xplr_aoa3_msgs-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[6.923025] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages/xplr_aoa3_msgs-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[6.923109] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages/xplr_aoa3_msgs-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[6.923183] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages/xplr_aoa3_msgs-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[6.923261] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages/xplr_aoa3_msgs\n'}
+[6.923361] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages/xplr_aoa3_msgs/xplr_aoa3_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.923521] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages/xplr_aoa3_msgs/_xplr_aoa3_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[6.923609] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages/xplr_aoa3_msgs/_xplr_aoa3_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.923718] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages/xplr_aoa3_msgs/xplr_aoa3_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.923827] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages/xplr_aoa3_msgs/_xplr_aoa3_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.923899] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages/xplr_aoa3_msgs/libxplr_aoa3_msgs__rosidl_generator_py.so\n'}
+[6.923962] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages/xplr_aoa3_msgs/__init__.py\n'}
+[6.924181] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages/xplr_aoa3_msgs/xplr_aoa3_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.924282] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages/xplr_aoa3_msgs/msg\n'}
+[6.924379] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages/xplr_aoa3_msgs/msg/_aoa_measurement.py\n'}
+[6.924485] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages/xplr_aoa3_msgs/msg/_aoa_measurement_s.c\n'}
+[6.924579] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages/xplr_aoa3_msgs/msg/__init__.py\n'}
+[6.955373] (xplr_aoa3_msgs) StdoutLine: {'line': b"Listing '/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages/xplr_aoa3_msgs'...\n"}
+[6.955500] (xplr_aoa3_msgs) StdoutLine: {'line': b"Compiling '/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages/xplr_aoa3_msgs/__init__.py'...\n"}
+[6.955567] (xplr_aoa3_msgs) StdoutLine: {'line': b"Listing '/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages/xplr_aoa3_msgs/msg'...\n"}
+[6.955620] (xplr_aoa3_msgs) StdoutLine: {'line': b"Compiling '/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages/xplr_aoa3_msgs/msg/__init__.py'...\n"}
+[6.955670] (xplr_aoa3_msgs) StdoutLine: {'line': b"Compiling '/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages/xplr_aoa3_msgs/msg/_aoa_measurement.py'...\n"}
+[6.959470] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages/xplr_aoa3_msgs/xplr_aoa3_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.959815] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages/xplr_aoa3_msgs/xplr_aoa3_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.959998] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages/xplr_aoa3_msgs/xplr_aoa3_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.960356] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages/xplr_aoa3_msgs/xplr_aoa3_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.960540] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages/xplr_aoa3_msgs/xplr_aoa3_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.960908] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages/xplr_aoa3_msgs/xplr_aoa3_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.960994] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/lib/libxplr_aoa3_msgs__rosidl_generator_py.so\n'}
+[6.961319] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/lib/libxplr_aoa3_msgs__rosidl_generator_py.so" to ""\n'}
+[6.961480] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/msg/AoaMeasurement.idl\n'}
+[6.961628] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/msg/AoaMeasurement.msg\n'}
+[6.961708] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/ament_index/resource_index/package_run_dependencies/xplr_aoa3_msgs\n'}
+[6.961790] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/ament_index/resource_index/parent_prefix_path/xplr_aoa3_msgs\n'}
+[6.961886] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/environment/ament_prefix_path.sh\n'}
+[6.961963] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/environment/ament_prefix_path.dsv\n'}
+[6.962170] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/environment/path.sh\n'}
+[6.962300] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/environment/path.dsv\n'}
+[6.962406] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/local_setup.bash\n'}
+[6.962496] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/local_setup.sh\n'}
+[6.962603] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/local_setup.zsh\n'}
+[6.962677] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/local_setup.dsv\n'}
+[6.962784] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/package.dsv\n'}
+[6.962935] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/ament_index/resource_index/packages/xplr_aoa3_msgs\n'}
+[6.963172] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/cmake/export_xplr_aoa3_msgs__rosidl_generator_cExport.cmake\n'}
+[6.963300] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/cmake/export_xplr_aoa3_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.963408] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/cmake/export_xplr_aoa3_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.963511] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/cmake/export_xplr_aoa3_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.963640] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/cmake/export_xplr_aoa3_msgs__rosidl_generator_cppExport.cmake\n'}
+[6.963777] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/cmake/export_xplr_aoa3_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.963930] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/cmake/export_xplr_aoa3_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.964012] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/cmake/xplr_aoa3_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.964169] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/cmake/xplr_aoa3_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.964334] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/cmake/xplr_aoa3_msgs__rosidl_typesupport_cExport.cmake\n'}
+[6.964547] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/cmake/xplr_aoa3_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.964741] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/cmake/xplr_aoa3_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.964858] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/cmake/xplr_aoa3_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.964938] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/cmake/xplr_aoa3_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[6.965031] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/cmake/xplr_aoa3_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.965209] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/cmake/export_xplr_aoa3_msgs__rosidl_generator_pyExport.cmake\n'}
+[6.965383] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/cmake/export_xplr_aoa3_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.965500] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[6.965582] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.965666] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.965776] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.965900] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.966060] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.966194] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.966359] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/cmake/xplr_aoa3_msgsConfig.cmake\n'}
+[6.966454] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/cmake/xplr_aoa3_msgsConfig-version.cmake\n'}
+[6.966555] (xplr_aoa3_msgs) StdoutLine: {'line': b'-- Installing: /home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/share/xplr_aoa3_msgs/package.xml\n'}
+[6.968692] (xplr_aoa3_msgs) CommandEnded: {'returncode': 0}
+[6.986260] (xplr_aoa3_msgs) JobEnded: {'identifier': 'xplr_aoa3_msgs', 'rc': 0}
+[6.986896] (xplr_aoa3) JobStarted: {'identifier': 'xplr_aoa3'}
+[7.019765] (-) TimerEvent: {}
+[7.120047] (-) TimerEvent: {}
+[7.220284] (-) TimerEvent: {}
+[7.320511] (-) TimerEvent: {}
+[7.420772] (-) TimerEvent: {}
+[7.521139] (-) TimerEvent: {}
+[7.621514] (-) TimerEvent: {}
+[7.722032] (-) TimerEvent: {}
+[7.822417] (-) TimerEvent: {}
+[7.923048] (-) TimerEvent: {}
+[8.023678] (-) TimerEvent: {}
+[8.124274] (-) TimerEvent: {}
+[8.224879] (-) TimerEvent: {}
+[8.325360] (-) TimerEvent: {}
+[8.425781] (-) TimerEvent: {}
+[8.434405] (xplr_aoa3) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/xplr_aoa3', 'build', '--build-base', '/home/qingyuan/ros2_iot/build/xplr_aoa3/build', 'install', '--record', '/home/qingyuan/ros2_iot/build/xplr_aoa3/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/qingyuan/ros2_iot/src/xplr_aoa3', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'qingyuan', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/lib:/home/qingyuan/ros2_ws/install/rdkdc/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/qingyuan', 'OLDPWD': '/home/qingyuan/ros2_iot', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '231325', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/qingyuan/ros2_iot/install:/home/qingyuan/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'qingyuan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'qingyuan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/qingyuan-G7-7588:@/tmp/.ICE-unix/2030,unix/qingyuan-G7-7588:/tmp/.ICE-unix/2030', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/50018f47_0772_4231_8c00_3ba05db2297b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MLA7M3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.1189', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs:/home/qingyuan/ros2_ws/install/rdkdc:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/qingyuan/ros2_iot/build/xplr_aoa3', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/qingyuan/ros2_iot/build/xplr_aoa3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qingyuan/ros2_iot/install/xplr_aoa3/lib/python3.10/site-packages:/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/qingyuan/ros2_iot/install/xplr_aoa3_msgs:/home/qingyuan/ros2_ws/install/rdkdc'}, 'shell': False}
+[8.525899] (-) TimerEvent: {}
+[8.626097] (-) TimerEvent: {}
+[8.662001] (xplr_aoa3) StdoutLine: {'line': b'running egg_info\n'}
+[8.662490] (xplr_aoa3) StdoutLine: {'line': b'creating ../../build/xplr_aoa3/xplr_aoa3.egg-info\n'}
+[8.662699] (xplr_aoa3) StdoutLine: {'line': b'writing ../../build/xplr_aoa3/xplr_aoa3.egg-info/PKG-INFO\n'}
+[8.662954] (xplr_aoa3) StdoutLine: {'line': b'writing dependency_links to ../../build/xplr_aoa3/xplr_aoa3.egg-info/dependency_links.txt\n'}
+[8.663224] (xplr_aoa3) StdoutLine: {'line': b'writing entry points to ../../build/xplr_aoa3/xplr_aoa3.egg-info/entry_points.txt\n'}
+[8.663317] (xplr_aoa3) StdoutLine: {'line': b'writing requirements to ../../build/xplr_aoa3/xplr_aoa3.egg-info/requires.txt\n'}
+[8.663392] (xplr_aoa3) StdoutLine: {'line': b'writing top-level names to ../../build/xplr_aoa3/xplr_aoa3.egg-info/top_level.txt\n'}
+[8.663551] (xplr_aoa3) StdoutLine: {'line': b"writing manifest file '../../build/xplr_aoa3/xplr_aoa3.egg-info/SOURCES.txt'\n"}
+[8.665306] (xplr_aoa3) StdoutLine: {'line': b"reading manifest file '../../build/xplr_aoa3/xplr_aoa3.egg-info/SOURCES.txt'\n"}
+[8.665950] (xplr_aoa3) StdoutLine: {'line': b"writing manifest file '../../build/xplr_aoa3/xplr_aoa3.egg-info/SOURCES.txt'\n"}
+[8.666148] (xplr_aoa3) StdoutLine: {'line': b'running build\n'}
+[8.666266] (xplr_aoa3) StdoutLine: {'line': b'running build_py\n'}
+[8.666434] (xplr_aoa3) StdoutLine: {'line': b'creating /home/qingyuan/ros2_iot/build/xplr_aoa3/build\n'}
+[8.666513] (xplr_aoa3) StdoutLine: {'line': b'creating /home/qingyuan/ros2_iot/build/xplr_aoa3/build/lib\n'}
+[8.666569] (xplr_aoa3) StdoutLine: {'line': b'creating /home/qingyuan/ros2_iot/build/xplr_aoa3/build/lib/xplr_aoa3\n'}
+[8.666661] (xplr_aoa3) StdoutLine: {'line': b'copying xplr_aoa3/aoa_node.py -> /home/qingyuan/ros2_iot/build/xplr_aoa3/build/lib/xplr_aoa3\n'}
+[8.666852] (xplr_aoa3) StdoutLine: {'line': b'copying xplr_aoa3/__init__.py -> /home/qingyuan/ros2_iot/build/xplr_aoa3/build/lib/xplr_aoa3\n'}
+[8.666930] (xplr_aoa3) StdoutLine: {'line': b'running install\n'}
+[8.667159] (xplr_aoa3) StdoutLine: {'line': b'running install_lib\n'}
+[8.667826] (xplr_aoa3) StdoutLine: {'line': b'creating /home/qingyuan/ros2_iot/install/xplr_aoa3/lib/python3.10/site-packages/xplr_aoa3\n'}
+[8.667905] (xplr_aoa3) StdoutLine: {'line': b'copying /home/qingyuan/ros2_iot/build/xplr_aoa3/build/lib/xplr_aoa3/aoa_node.py -> /home/qingyuan/ros2_iot/install/xplr_aoa3/lib/python3.10/site-packages/xplr_aoa3\n'}
+[8.668079] (xplr_aoa3) StdoutLine: {'line': b'copying /home/qingyuan/ros2_iot/build/xplr_aoa3/build/lib/xplr_aoa3/__init__.py -> /home/qingyuan/ros2_iot/install/xplr_aoa3/lib/python3.10/site-packages/xplr_aoa3\n'}
+[8.668404] (xplr_aoa3) StdoutLine: {'line': b'byte-compiling /home/qingyuan/ros2_iot/install/xplr_aoa3/lib/python3.10/site-packages/xplr_aoa3/aoa_node.py to aoa_node.cpython-310.pyc\n'}
+[8.669491] (xplr_aoa3) StdoutLine: {'line': b'byte-compiling /home/qingyuan/ros2_iot/install/xplr_aoa3/lib/python3.10/site-packages/xplr_aoa3/__init__.py to __init__.cpython-310.pyc\n'}
+[8.669692] (xplr_aoa3) StdoutLine: {'line': b'running install_data\n'}
+[8.669919] (xplr_aoa3) StdoutLine: {'line': b'creating /home/qingyuan/ros2_iot/install/xplr_aoa3/share/ament_index\n'}
+[8.670020] (xplr_aoa3) StdoutLine: {'line': b'creating /home/qingyuan/ros2_iot/install/xplr_aoa3/share/ament_index/resource_index\n'}
+[8.670096] (xplr_aoa3) StdoutLine: {'line': b'creating /home/qingyuan/ros2_iot/install/xplr_aoa3/share/ament_index/resource_index/packages\n'}
+[8.670151] (xplr_aoa3) StdoutLine: {'line': b'copying resource/xplr_aoa3 -> /home/qingyuan/ros2_iot/install/xplr_aoa3/share/ament_index/resource_index/packages\n'}
+[8.670205] (xplr_aoa3) StdoutLine: {'line': b'copying package.xml -> /home/qingyuan/ros2_iot/install/xplr_aoa3/share/xplr_aoa3\n'}
+[8.670351] (xplr_aoa3) StdoutLine: {'line': b'creating /home/qingyuan/ros2_iot/install/xplr_aoa3/share/xplr_aoa3/launch\n'}
+[8.670428] (xplr_aoa3) StdoutLine: {'line': b'copying launch/aoa_launch.py -> /home/qingyuan/ros2_iot/install/xplr_aoa3/share/xplr_aoa3/launch\n'}
+[8.670484] (xplr_aoa3) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.671745] (xplr_aoa3) StdoutLine: {'line': b'Copying ../../build/xplr_aoa3/xplr_aoa3.egg-info to /home/qingyuan/ros2_iot/install/xplr_aoa3/lib/python3.10/site-packages/xplr_aoa3-0.1.0-py3.10.egg-info\n'}
+[8.672535] (xplr_aoa3) StdoutLine: {'line': b'running install_scripts\n'}
+[8.689698] (xplr_aoa3) StdoutLine: {'line': b'Installing aoa_node script to /home/qingyuan/ros2_iot/install/xplr_aoa3/lib/xplr_aoa3\n'}
+[8.689921] (xplr_aoa3) StdoutLine: {'line': b"writing list of installed files to '/home/qingyuan/ros2_iot/build/xplr_aoa3/install.log'\n"}
+[8.707679] (xplr_aoa3) CommandEnded: {'returncode': 0}
+[8.713419] (xplr_aoa3) JobEnded: {'identifier': 'xplr_aoa3', 'rc': 0}
+[8.713899] (-) EventReactorShutdown: {}
