@@ -1,0 +1,15 @@
+# Python dependencies for EmbWIot_Final_Group5
+# Install with: pip3 install -r requirements.txt --break-system-packages
+
+# Data processing & analysis scripts (convert_aoa.py, process_bags.py, tag_localization*.py)
+numpy>=1.24.0
+scipy>=1.10.0
+
+# ROS2 bag file reading (process_bags.py)
+rosbags>=0.9.0
+
+# ROS2 node serial communication (src/xplr_aoa3/xplr_aoa3/aoa_node.py)
+pyserial>=3.5
+
+# NOTE: rclpy is part of ROS2 Humble — install via:
+#   sudo apt install ros-humble-rclpy
