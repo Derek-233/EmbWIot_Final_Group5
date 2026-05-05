@@ -4,7 +4,7 @@
 **Team:** Qingyuan Cao · Jonathan Lee · Shyun Lee  
 **Date:** May 5, 2026
 
-**Full Project Report (PDF):** [0505_EmbWIoT_Project_Group5.pdf](docs/0505_EmbWIoT_Project_Group5.pdf)
+**Full Project Report (PDF):** [v2_0505_EmbWIoT_Project_Group5.pdf](docs/v2_0505_EmbWIoT_Project_Group5.pdf)
 
 The report documents the complete project progression:
 - **Slides 2–3:** Motivation — robot navigation using wireless signals, BLE contribution
